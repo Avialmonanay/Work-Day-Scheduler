@@ -1,0 +1,76 @@
+html{
+    background-color: lightgrey;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.header{
+    margin-top: 1%;
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+    border-bottom: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    background-color: lightgrey ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    height: 70vh;
+    margin-left: 15%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.frow {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 100vw;
+    
+}
+
+
+.hour {
+    text-align: end;
+    height: 7vh;
+    border-top: 6px;
+    border-bottom: 6px;
+    border-right: 6px;
+    border-left: 0px;
+    border-style:groove;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.text {
+    background-color: lightgreen;
+}
+
+
+.textcurrent{
+ background-color: darkorange;
+}
+
+
+
+.textpast{
+    background-color: lightgrey;
+}
+
+.savebtn{
+    background-color: blue;
+    border-radius: 0 15px 15px 0;
+    font-size: 200%
+}
