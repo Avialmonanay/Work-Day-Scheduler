@@ -1,6 +1,6 @@
 var savebtn = $(".savebtn")
 
-var textInput =$(".text")
+
 
 // pulls moment then sets date on top of screen
 var currentDate = moment();
@@ -18,11 +18,18 @@ function trackTime(){
 }
 
 
-$(".savebtn").click(function(){
-    
-    var input = $(this).siblings(".text").val()   
+$(".frow").click(function (event){
+
+    var element = event.target
+    if (element.matches("button")){
+    const hourEl = $(this).children("p").innerHTML
+    var input = $(this).children("textarea")
+
+    console.log(hourEl)
     console.log(input)
+    
 
 
 
-    })
+    }
+})
