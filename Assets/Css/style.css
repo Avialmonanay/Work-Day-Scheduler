@@ -1,12 +1,18 @@
+/* background color */
+:root{
+--BackgroundC: #e3e6d8
+}
+
+
 html{
-    background-color: lightgrey;
+    background-color:var(--BackgroundC);
 }
 
 main{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color:var(--BackgroundC);
 }
 
 .header{
@@ -20,9 +26,11 @@ main{
     border-left: 0;
     border-right: 0;
     border-style: solid;
-    background-color: lightgrey ;
+    background-color:var(--BackgroundC);
 }
 
+
+/* generalized cetner styling */
 .container {
     display: flex;
     flex-direction: column;
@@ -33,6 +41,7 @@ main{
     justify-content: center;
 }
 
+/* hour, text area, save button styling height and flex direction. */
 .frow {
     display: flex;
     flex-direction: row;
@@ -42,6 +51,7 @@ main{
 }
 
 
+/* display hour styling */
 .hour {
     text-align: end;
     height: 7vh;
@@ -54,13 +64,15 @@ main{
     padding-top: 15px;
 }
 
+
+/* background color of text area to show hour status. */
 .text {
     background-color: lightgreen;
 }
 
 
 .textcurrent{
- background-color: darkorange;
+ background-color: rgb(250, 181, 92);
 }
 
 
@@ -69,6 +81,9 @@ main{
     background-color: lightgrey;
 }
 
+
+
+/* save button styling */
 .savebtn{
     background-color: blue;
     border-radius: 0 15px 15px 0;

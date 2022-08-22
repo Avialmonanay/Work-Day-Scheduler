@@ -100,9 +100,8 @@ $(".frow").click(function (event) {
     if (element.matches("button")) {
         var input = $(this).children("textarea").val()
         var ID = element.getAttribute("data-number")
-        console.log(ID)
-        // console.log(input)
-
+        
+        
         if (ID == "1") {
             localStorage.setItem("item1", JSON.stringify(input))
         }
